@@ -56,7 +56,7 @@ class InputHistoryTextFieldState extends State<InputHistoryTextField> {
 
   void _saveHistory() {
     if (!widget.enableSave) return;
-    final text = widget.textEditingController?.text;
+    final text = widget.textEditingController?.text;bodyMedium
     _inputHistoryController.add(text ?? '');
   }
 
